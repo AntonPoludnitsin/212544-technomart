@@ -1357,9 +1357,8 @@ a {
   display: block;
 }
 /*...и тень*/
-.product-card:hover {
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+.product-card:hover {  
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .buy-button, .to-favorities-button {
   position: relative;
@@ -1439,7 +1438,7 @@ a {
   justify-content: center;
 }
 .product-image.bfg9000 {  
-  ransform: translate(-1px, 4px);
+  transform: translate(-1px, 4px);
 }
 .product-image.bfg3000 {  
   transform: translate(-6px, 1px);
